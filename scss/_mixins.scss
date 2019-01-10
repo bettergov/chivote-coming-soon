@@ -1,5 +1,10 @@
 // Mixins
 // Background Cover Mixin
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('../fonts/LeagueSpartan-Bold.otf')
+}
+
 @mixin background-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,5 +14,6 @@
 
 // Font Mixins
 @mixin body-font {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  // font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'League Spartan Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

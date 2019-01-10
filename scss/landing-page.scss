@@ -4,9 +4,24 @@
 // Global CSS
 @import "global.scss";
 // Components
+@import "nav.scss";
 @import "masthead.scss";
 @import "showcase.scss";
 @import "icons.scss";
 @import "testimonials.scss";
 @import "call-to-action.scss";
 @import "footer.scss";
+
+.logo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo--chivote-coll {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: $crimson;
+}

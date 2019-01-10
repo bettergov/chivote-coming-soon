@@ -1,16 +1,32 @@
-.features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  .features-icons-item {
+.chivote-coll {
+  background-color: $darkblue;
+  color: $white;
+  padding: 4rem;
+  .collective-logos {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .collective-logo {
+      height: 5rem;
+      margin-bottom: 1rem;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      .collective-logo {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .chivote-coll-item {
     max-width: 20rem;
-    .features-icons-icon {
+    .chivote-coll-icon {
       height: 7rem;
       i {
         font-size: 4.5rem;
       }
     }
     &:hover {
-      .features-icons-icon {
+      .chivote-coll-icon {
         i {
           font-size: 5rem;
         }

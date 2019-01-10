@@ -1,11 +1,16 @@
 /*!
  * Start Bootstrap - Landing Page v5.0.1 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url("../fonts/LeagueSpartan-Bold.otf");
+}
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'League Spartan Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -14,17 +19,25 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'League Spartan Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+.navbar {
+  background-color: #55C1E8;
+}
+
+.navbar-brand img {
+  height: 75px;
+  max-width: 100%;
 }
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #55C1E8;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 header.masthead .overlay {
@@ -41,10 +54,15 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+header.masthead .logo {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -66,24 +84,55 @@ header.masthead h1 {
   }
 }
 
-.features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.chivote-coll {
+  background-color: #31313B;
+  color: #fff;
+  padding: 4rem;
 }
 
-.features-icons .features-icons-item {
+.chivote-coll .collective-logos {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.chivote-coll .collective-logos .collective-logo {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .chivote-coll .collective-logos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .chivote-coll .collective-logos .collective-logo {
+    margin-bottom: 0;
+  }
+}
+
+.chivote-coll .chivote-coll-item {
   max-width: 20rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
+.chivote-coll .chivote-coll-item .chivote-coll-icon {
   height: 7rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon i {
+.chivote-coll .chivote-coll-item .chivote-coll-icon i {
   font-size: 4.5rem;
 }
 
-.features-icons .features-icons-item:hover .features-icons-icon i {
+.chivote-coll .chivote-coll-item:hover .chivote-coll-icon i {
   font-size: 5rem;
 }
 
@@ -124,4 +173,18 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.logo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo--chivote-coll {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #CE112D;
 }
