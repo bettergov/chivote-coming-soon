@@ -13,13 +13,17 @@
 @import 'footer.scss';
 
 .logo {
-	max-width: 100%;
+  max-width: 100%;
+  object-fit: contain;
 	margin: 0 auto;
+}
+
+.logo--masthead {
+  height: 150px;
 }
 
 .logo--chivote-coll {
   height: 50px;
-  object-fit: contain;
 	margin-bottom: 2rem;
 }
 

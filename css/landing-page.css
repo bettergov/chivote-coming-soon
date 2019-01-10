@@ -64,6 +64,10 @@ header.masthead .logo {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
+  header.masthead .logo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
   header.masthead h1 {
     font-size: 3rem;
   }
@@ -185,13 +189,17 @@ footer.footer {
 
 .logo {
   max-width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
   margin: 0 auto;
+}
+
+.logo--masthead {
+  height: 150px;
 }
 
 .logo--chivote-coll {
   height: 50px;
-  -o-object-fit: contain;
-  object-fit: contain;
   margin-bottom: 2rem;
 }
 
