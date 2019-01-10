@@ -1,27 +1,47 @@
 // Core variables and mixins
-@import "variables.scss";
-@import "mixins.scss";
+@import 'variables.scss';
+@import 'mixins.scss';
 // Global CSS
-@import "global.scss";
+@import 'global.scss';
 // Components
-@import "nav.scss";
-@import "masthead.scss";
-@import "showcase.scss";
-@import "icons.scss";
-@import "testimonials.scss";
-@import "call-to-action.scss";
-@import "footer.scss";
+@import 'nav.scss';
+@import 'masthead.scss';
+@import 'showcase.scss';
+@import 'icons.scss';
+@import 'testimonials.scss';
+@import 'call-to-action.scss';
+@import 'footer.scss';
 
 .logo {
-  max-width: 100%;
-  margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 .logo--chivote-coll {
-  height: 50px;
-  margin-bottom: 2rem;
+	height: 50px;
+	margin-bottom: 2rem;
 }
 
 .btn-primary {
-  background-color: $crimson;
+	background-color: $crimson;
+}
+
+.intro-blurb {
+	font-weight: normal;
+	letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 768px) {
+	h3.intro-blurb {
+		margin-bottom: 1rem !important;
+	}
+
+	h4.intro-blurb {
+		font-size: 1em;
+	}
+}
+
+#mc_embed_signup p {
+	// letter-spacing: 0.5px;
+	font-weight: normal;
 }
