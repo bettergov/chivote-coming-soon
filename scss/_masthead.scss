@@ -1,38 +1,38 @@
 header.masthead {
-  position: relative;
-  background-color: $brightblue;
-  // background: url('../img/bg-masthead.jpg') no-repeat center center;
-  @include background-cover;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-  }
-  h1 {
-    font-size: 2rem;
-  }
+	position: relative;
+	background-color: $brightblue;
+	// background: url('../img/bg-masthead.jpg') no-repeat center center;
+	@include background-cover;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	.overlay {
+		position: absolute;
+		background-color: $gray-900;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+	}
+	h1 {
+		font-size: 2rem;
+	}
 
-  .logo {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-  @media (min-width: 768px) {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+	.logo {
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+	@media (min-width: 768px) {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
 
-    .logo {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-    }
+		.logo {
+			margin-top: 1rem;
+			margin-bottom: 2rem;
+		}
 
-    h1 {
-      font-size: 3rem;
-    }
-  }
+		h1 {
+			font-size: 3rem;
+		}
+	}
 }
