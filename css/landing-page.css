@@ -224,3 +224,35 @@ footer.footer {
 #mc_embed_signup p {
   font-weight: normal;
 }
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.features-icons {
+  padding: 4rem;
+}
+
+.feature-link,
+.feature-link:hover {
+  color: currentColor;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .page-faq h1 {
+    font-size: 2rem;
+  }
+}
+
+.page-faq h3 {
+  margin-top: 3rem;
+}

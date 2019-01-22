@@ -15,7 +15,7 @@
 .logo {
   max-width: 100%;
   object-fit: contain;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .logo--masthead {
@@ -24,29 +24,62 @@
 
 .logo--chivote-coll {
   height: 50px;
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn-primary {
-	background-color: $crimson;
+  background-color: $crimson;
 }
 
 .intro-blurb {
-	font-weight: normal;
-	letter-spacing: 0.5px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 768px) {
-	h3.intro-blurb {
-		margin-bottom: 1rem !important;
-	}
+  h3.intro-blurb {
+    margin-bottom: 1rem !important;
+  }
 
-	h4.intro-blurb {
-		font-size: 1em;
-	}
+  h4.intro-blurb {
+    font-size: 1em;
+  }
 }
 
 #mc_embed_signup p {
-	// letter-spacing: 0.5px;
-	font-weight: normal;
+  // letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.features-icons {
+  padding: 4rem;
+}
+
+.feature-link,
+.feature-link:hover {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.page-faq {
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  h3 {
+    margin-top: 3rem;
+  }
 }
