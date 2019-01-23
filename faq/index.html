@@ -100,9 +100,19 @@
       gtag('js', new Date());
       gtag('config', 'UA-132460152-1');
     </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+    />
   </head>
 
-  <body class="page-faq" style="background: #EFEFEF;">
+  <body
+    class="page-faq"
+    style="background: #EFEFEF;"
+    data-spy="scroll"
+    data-target="#toc"
+  >
     <!-- Navigation -->
     <nav class="navbar navbar-light static-top" style="background: #31313B;">
       <div class="container">
@@ -119,263 +129,417 @@
     <!-- Icons Grid -->
     <section>
       <div class="container">
-        <div class="col-12">
-          <article class="my-5">
-            <h1>Voting FAQ: The What, Where, When &amp; How</h1>
-
-            <p>
-              On March 20th, Illinois voters will select their party’s nominees
-              for the November 2018 general election.
-            </p>
-
-            <p>
-              In some cases, the primary is the only real chance voters have to
-              weigh in on the 2018 election because one party tends to dominate
-              the political landscape. For 19 seats in the Illinois House of
-              Representatives, three seats in the Illinois Senate, and many Cook
-              County positions only one party is running candidates and the
-              winner of the primary is likely to be the ultimate winner of the
-              general election. Political parties do have a window to appoint
-              candidates to run after the primary, but they might not always do
-              so.
-            </p>
-
-            <p>Illinois voters will NOMINATE candidates for:</p>
-
-            <ul>
-              <li>Illinois Governor</li>
-              <li>Illinois Attorney General</li>
-              <li>Representatives in Congress — All 18 Districts</li>
-              <li>
-                Representatives in the Illinois General Assembly — All 118
-                Districts
-              </li>
-              <li>
-                Senators in the Illinois General Assembly – 39 of 59 Districts
-              </li>
-              <li>
-                Judicial Vacancies, Regional Superintendents, and Local Offices
-              </li>
-            </ul>
-
-            <p>
-              In addition, your local ballot might ask for your views on local
-              school funding or other policy and tax-related matters.
-            </p>
-
-            <p>
-              <a
-                class="button"
-                href="http://www.elections.il.gov/ElectionInformation/OfficesUpForElection.aspx?ID=sS0fEAtHi7U%3D"
-                >View state offices up for election in 2018.</a
-              >
-            </p>
-
-            <p>
-              <a
-                class="button"
-                href="http://www.elections.il.gov/ElectionAuthorities/ElecAuthorityList.aspx"
-                >Find your local election authority to view local offices up for
-                election in 2018.</a
-              >
-            </p>
-
-            <h3>Am I registered to vote?</h3>
-
-            <p>
-              You can check your registration status on the state’s
-              <a href="https://ova.elections.il.gov/RegistrationLookup.aspx"
-                >Registration Lookup website</a
-              >. If you’re registered, the website also will provide your
-              polling location.
-            </p>
-
-            <h3>How do I register to vote?</h3>
-
-            <p>
-              You will need two forms of acceptable ID, including at least one
-              document with your current address and one with your photo.
-            </p>
-
-            <p>Acceptable forms of ID include:</p>
-
-            <ul>
-              <li>Driver’s license</li>
-              <li>State identification card</li>
-              <li>Passport</li>
-              <li>
-                Current utility bill, bank statement, government check, paycheck
-                stub, or other government document that shows your name and
-                current address
-              </li>
-            </ul>
-
-            <p>
-              <strong>Before February 20th</strong>, you may register to vote at
-              the following locations: county clerk offices, board of election
-              commissioner offices, city and village offices, township offices,
-              schools, public libraries, military recruitment centers.
-            </p>
-
-            <p>
-              <strong>After February 20th</strong>, you may register in person
-              only at the time you vote, at select locations in your county. You
-              can find these locations on your county’s election website.
-            </p>
-
-            <p>
-              In addition, until <strong>March 4th</strong>,
-              <a href="https://ova.elections.il.gov/"
-                >you may use this online application to register to vote</a
-              >.
-            </p>
-
-            <p>
-              You can register to vote on Election Day,
-              <strong>March 20th</strong>. However, you can only do so in your
-              home precinct. The same ID requirements apply.
-            </p>
-
-            <h3>
-              Do I have to be registered with a political party to vote in the
-              primary?
-            </h3>
-
-            <p>
-              No. Illinois has what is known as an open primary. You do not need
-              to be registered with a political party. However, at the polling
-              place you will need to tell a poll worker which party’s ballot you
-              would like and you can only choose one.
-            </p>
-
-            <h3>Once registered, can I vote early?</h3>
-
-            <p>
-              Yes. Early voting in most of Illinois begins February 8th and ends
-              March 19th.
-              <a
-                href="http://www.elections.il.gov/VotingInformation/EarlyVotingLocations.aspx"
-                >Please select your county here</a
-              >
-              to access specific dates, times, and places.
-            </p>
-
-            <div>
+        <div class="row my-5">
+          <div class="col-12 col-md-4 col-lg-3">
+            <nav id="toc" data-toggle="toc"></nav>
+          </div>
+          <div class="col-12 col-md-8 col-lg-9">
+            <article>
+              <h1>
+                <strong
+                  >Voting FAQ: The 2019 City of Chicago Municipal
+                  Elections</strong
+                >
+              </h1>
+              <h3><strong>When are the 2019 Chicago elections?</strong></h3>
+              <p>Tuesday, Feb. 26th is Election Day.</p>
+              <h3>
+                <strong
+                  >What positions are being filled in the 2019 Municipal
+                  Elections?</strong
+                >
+              </h3>
+              <ul>
+                <li>Mayor of Chicago</li>
+                <li>City Clerk</li>
+                <li>City Treasurer</li>
+                <li>All 50 City Council positions (Aldermen)</li>
+              </ul>
+              <h3><strong>How do I vote?</strong></h3>
               <p>
-                Due to delays in legal battles over whether some candidacies can
-                continue, in Cook County suburbs, early voting is scheduled to
-                begin March 5th.
+                You can vote in person on Election Day, you can vote early at
+                designated polling places, or you can vote by mail.
+              </p>
+              <h3><strong>Do I need to register to vote? </strong></h3>
+              <p>Yes.</p>
+              <h3><strong>How do I register to vote?</strong></h3>
+              <p>
                 <a
-                  href="https://www.cookcountyclerk.com/service/early-voting-locations"
-                  >Please see this link for specific dates, times, and places</a
-                >.
+                  href="https://chicagoelections.com/en/your-voter-information.html"
+                  >Go here</a
+                >
+                to get started or check and see if you are registered. If you
+                are registered already, it will also give you your polling place
+                location and absentee ballot options.
               </p>
-            </div>
-
-            <div>
               <p>
-                Due to delays in legal battles over whether some candidacies can
-                continue, in the City of Chicago, early voting is scheduled to
-                begin February 21st.
-                <a href="https://chicagoelections.com/en/early-voting.html"
-                  >Please see this link for specific dates, times, and places</a
+                If you&rsquo;re not already registered,
+                <a
+                  href="https://chicagoelections.com/en/register-to-vote-change-of-address.html"
+                  >you can register online</a
+                >, via snail-mail, in-person at Early Voting, on Election Day,
+                or at the Secretary of State&rsquo;s office.
+              </p>
+              <p>
+                If you are registering in person, you must present two forms of
+                ID, one of which must show your current address. Chicago voters
+                may use any of the dozens of Early Voting locations in the city:
+              </p>
+              <ul>
+                <li>At the Loop Super Site from Jan. 30 - Feb. 25; and</li>
+                <li>At the 50 ward sites from Feb. 11 - Feb. 25.</li>
+              </ul>
+              <h3><strong>Can I register to vote on Election Day? </strong></h3>
+              <p>
+                Election Day registration is also available on Feb. 26th, but
+                only at the polling place assigned to your home precinct. (Just
+                to be safe, we recommend registering in advance!)
+              </p>
+              <h3>
+                <strong
+                  >Where do I vote (how to find your &ldquo;polling
+                  place&rdquo;)?</strong
+                >
+              </h3>
+              <p>
+                <a
+                  href="https://chicagoelections.com/en/your-voter-information.html"
+                  >Enter your address here</a
+                >, and it will tell you where to vote. Remember, your vote won't
+                count if you vote in the wrong ward. If you've moved since the
+                last election, make sure you
+                <a
+                  href="https://chicagoelections.com/en/register-to-vote-change-of-address.html"
+                  >update your registration</a
                 >.
               </p>
-            </div>
-
-            <h3>Can I vote by mail?</h3>
-
-            <p>
-              Voting by mail requires an application. In order to complete a
-              ballot and mail it for the primary, you must complete the
-              application by <strong>March 15th</strong>. For those who have
-              completed their application and received a ballot, mailed ballots
-              must be postmarked no later than Election Day (March 20th), and
-              must be received within 14 days of the election.
-              <a
-                href="http://www.elections.il.gov/VotingInformation/VotingByMailMove.aspx"
-                >Click here for more information</a
-              >.
-            </p>
-
-            <h3>Where is my polling place?</h3>
-
-            <p>
-              You can find the location of your polling place on the
-              <a href="https://ova.elections.il.gov/RegistrationLookup.aspx"
-                >Registration Lookup website</a
-              >, or on your county’s website. If you’ve moved since the last
-              election, make sure to re-register listing your new address. The
-              rules that apply if you’ve moved and need to re-register can be
-              found
-              <a
-                href="http://www.elections.il.gov/Downloads/ElectionInformation/PDF/registervote.pdf"
-                >here</a
-              >.
-            </p>
-
-            <h3>Do I need an ID to vote?</h3>
-
-            <p>
-              It depends. You will need to present a government-issued ID if:
-            </p>
-
-            <ul>
-              <li>You register between February 20th and March 20th</li>
-              <li>
-                You are a new voter who has registered by mail and have not
-                previously supplied the election board with appropriate ID
-              </li>
-            </ul>
-
-            <h3>
-              What time are the polls open in Illinois on Primary Election Day,
-              March 20th?
-            </h3>
-
-            <p>Polls will be open from 6:00 AM to 7:00 PM.</p>
-
-            <h3>For whom should I vote?</h3>
-
-            <p>
-              The Better Government Association is a non-profit, non-partisan
-              organization. We do not endorse or recommend candidates.
-              <a href="../races"
-                >Please see our candidate questionnaires for competitive
-                statewide and Cook County-wide races</a
-              >, which focuses on open and accountable government. We encourage
-              you to research candidates and be an informed voter.
-            </p>
-
-            <p>
-              In addition, many local newspapers including the Chicago Tribune,
-              the Chicago Sun-Times, the Daily Herald and the Springfield State
-              Journal-Register interview candidates, publish candidate
-              questionnaires and might provide a list of candidates their
-              editorial boards endorse. Various bar associations also frequently
-              publish ratings of candidates for judgeships.
-            </p>
-
-            <p>
-              <a class="button" href="../races"
-                >Read the BGA candidate questionnaires.</a
-              >
-            </p>
-
-            <h3>Illinois State Board of Elections Telephone Help Lines:</h3>
-
-            <p>
-              Springfield Office: 217-782-4141 Monday - Friday 8:00 AM to 4:30
-              PM
-            </p>
-
-            <p>
-              Chicago Office: 312-814-6440 Monday to Friday 8:00 AM to 4:30 PM
-            </p>
-          </article>
+              <h3>
+                <strong
+                  >What time are the polls open in Chicago on Election
+                  Day?</strong
+                >
+              </h3>
+              <p>6:00 a.m. to 7:00 p.m. on Feb. 26th.</p>
+              <h3><strong>Can I vote early?</strong></h3>
+              <p>
+                Yes. There are two windows of in-person early voting starting
+                Jan. 28, described below. Remember: A government-issued photo ID
+                is not required but is helpful if there is a question about your
+                registration, address or signature, or if there are two voters
+                with the same or similar names at the same address.
+              </p>
+              <p>
+                Registration services are available at every Early Voting site,
+                and any voter who needs to register for the first time, or file
+                an address update or a name change must show two forms of ID,
+                one of which shows the voter's current address.
+              </p>
+              <p>That ballot you cast in Early Voting is final.</p>
+              <p>
+                In-person Early Voting, 1st Window: For all registered voters,
+                in-person Early Voting is available Jan. 28 - February 11, at
+                the Loop Super Site, 175 W. Washington. Here&rsquo;s the
+                schedule:
+              </p>
+              <ul>
+                <li>
+                  Monday, Jan. 28 - Saturday, Feb. 2 &mdash; 9 a.m.-5 p.m.
+                </li>
+                <li>Sunday, Feb. 3 &mdash; 10 a.m.-4 p.m.</li>
+                <li>Monday, Feb. 4 - Saturday, Feb. 9 &mdash; 9 a.m.-5 p.m.</li>
+                <li>Sunday, Feb. 10 &mdash; 10 a.m.-4 p.m.</li>
+              </ul>
+              <p>
+                In-person Early Voting, 2nd Window: For all registered voters,
+                in-person Early Voting is available Feb. 11 - Feb. 25, at the
+                Loop Super Site, 175 W. Washington, and at ward sites. Here are
+                the hours of operation and locations:
+              </p>
+              <ul>
+                <li>Hours of Operation</li>
+                <ul>
+                  <li>
+                    Monday, Feb. 11 - Saturday, Feb. 16 &mdash; 9 a.m.-5 p.m.
+                  </li>
+                  <li>Sunday, Feb. 17 &mdash; 10 a.m.-4 p.m.</li>
+                  <li>
+                    Monday, Feb. 18 - Friday, Feb. 22 &mdash; 9 a.m.-7 p.m.
+                  </li>
+                  <li>Saturday, Feb. 23 &mdash; 9 a.m.-5 p.m.</li>
+                  <li>Sunday, Feb. 24 &mdash; 10 a.m.-4 p.m.</li>
+                  <li>Monday, Feb. 25 &mdash; 9 a.m.-5 p.m.</li>
+                </ul>
+                <li>Loop Super Site: 175 W. Washington</li>
+                <li>Ward 1: Goldblatt's Building, 1615 W Chicago</li>
+                <li>Ward 2: Near North Library, 310 W Division</li>
+                <li>Ward 3: Hall Branch Library, 4801 S Michigan</li>
+                <li>
+                  Ward 4: King Community Ctr., 4314 S Cottage Grove (On Feb 25,
+                  this site will remain open through 7 pm.)
+                </li>
+                <li>Ward 5: Jackson Park, 6401 S Stony Island</li>
+                <li>Ward 6: Dist. 3 Police Station, 7040 S Cottage Grove</li>
+                <li>Ward 7: Jeffrey Manor Library, 2401 E 100th St</li>
+                <li>Ward 8: Olive Harvey College, 10001 S Woodlawn</li>
+                <li>Ward 9: Palmer Park, 201 E 111th St</li>
+                <li>Ward 10: Vodak/Eastside Library, 3710 E 106th St</li>
+                <li>Ward 11: Dist. 9 Police Station, 3120 S Halsted</li>
+                <li>
+                  Ward 12: McKinley Park, 2210 W Pershing (On Feb 25, this site
+                  will remain open through 7 pm.)
+                </li>
+                <li>Ward 13: West Lawn Park, 4233 W 65th St</li>
+                <li>Ward 14: Archer Heights Library, 5055 S Archer</li>
+                <li>Ward 15: Gage Park, 2411 W 55th St</li>
+                <li>Ward 16: Lindbloom Park, 6054 S Damen</li>
+                <li>Ward 17: Thurgood Marshall Library, 7506 S Racine</li>
+                <li>Ward 18: Wrightwood Ashburn Library, 8530 S Kedzie</li>
+                <li>
+                  Ward 19: Mount Greenwood Park, 3721 W 111th St (On Feb 25,
+                  this site will remain open through 7 pm.)
+                </li>
+                <li>Ward 20: Bessie Coleman Library, 731 E 63rd St</li>
+                <li>Ward 21: Woodson Library, 9525 S Halsted St</li>
+                <li>Ward 22: Toman Library, 2708 S Pulaski</li>
+                <li>Ward 23: Clearing Branch Library, 6423 W 63rd Pl</li>
+                <li>Ward 24: St. Agatha Parish, 3147 W Douglas Blvd</li>
+                <li>Ward 25: Chinatown Library, 2100 S Wentworth</li>
+                <li>Ward 26: Humboldt Park Library, 1605 N Troy</li>
+                <li>Ward 27: Eckhart Park, 1330 W Chicago</li>
+                <li>
+                  Ward 28: W. Side Learning Ctr, 4624 W Madison (On Feb 25, this
+                  site will remain open through 7 pm.)
+                </li>
+                <li>Ward 29: Amundsen Park, 6200 W Bloomingdale</li>
+                <li>Ward 30: Kilbourn Park, 3501 N Kilbourn</li>
+                <li>Ward 31: Portage Cragin Library, 5108 W Belmont</li>
+                <li>Ward 32: Bucktown-Wicker Park Library, 1701 N Milwaukee</li>
+                <li>Ward 33: McFetridge Sports Center, 3843 N California</li>
+                <li>Ward 34: W. Pullman Library, 830 W 119th</li>
+                <li>Ward 35: NEIU El Centro, 3390 N Avondale</li>
+                <li>Ward 36: West Belmont Library, 3104 N Narragansett</li>
+                <li>Ward 37: West Chicago Ave Library, 4856 W Chicago</li>
+                <li>Ward 38: Hiawatha Park, 8029 W Forest Preserve</li>
+                <li>Ward 39: North Park Vill. Admin., 5801 N Pulaski</li>
+                <li>Ward 40: Budlong Woods Library, 5630 N Lincoln</li>
+                <li>
+                  Ward 41: Roden Library, 6083 N Northwest Highway (On Feb 25,
+                  this site will remain open through 7 pm.)
+                </li>
+                <li>
+                  Ward 42: Museum of Broadcast Communications, 360 N State
+                </li>
+                <li>Ward 43: Lincoln Park Library, 1150 W Fullerton</li>
+                <li>Ward 44: John Merlo Library, 644 W Belmont</li>
+                <li>Ward 45: Dist. 16 Police Station, 5151 N Milwaukee</li>
+                <li>Ward 46: Truman College, 1145 W Wilson</li>
+                <li>
+                  Ward 47: Welles Park, 2333 W Sunnyside (On Feb 25, this site
+                  will remain open through 7 pm.)
+                </li>
+                <li>Ward 48: Edgewater Library, 6000 N Broadway</li>
+                <li>Ward 49: Pottawattomie Park, 7340 N Rogers</li>
+                <li>Ward 50: Warren Park, 6601 N Western</li>
+              </ul>
+              <p>
+                There are also options at universities for Early Voting from
+                Wednesday, Feb. 20 - Friday, Feb 22 &mdash; 10 a.m.-5 p.m. at
+                the following locations:
+              </p>
+              <ul>
+                <li>Chicago State University, 9501 S M L King Dr</li>
+                <li>UIC Student Center, 750 S Halsted</li>
+                <li>Northeastern Illinois University, 5500 N St Louis</li>
+              </ul>
+              <h3>
+                <strong
+                  >Do I need an ID to vote in the Chicago Municipal
+                  Elections?</strong
+                >
+              </h3>
+              <p>
+                It depends. You must bring a government-issued photo ID if
+                you've changed your address or are voting for the first time at
+                your polling place
+              </p>
+              <p>
+                You do NOT need a photo ID if you are voting on Election Day and
+                have voted from your current address before.<br /><br />
+              </p>
+              <h3>
+                <strong
+                  >Do I need to bring my voter ID card from the Illinois Board
+                  of Elections?</strong
+                >
+              </h3>
+              <p>
+                No, but you may need to provide a government-issued photo ID as
+                explained above.
+              </p>
+              <h3><strong>Can I vote by mail?</strong></h3>
+              <p>
+                Yes. Anyone can vote by mail. However, in order to receive a
+                ballot, you will have to submit a Vote By Mail application.
+                Applications can be submitted online or at the offices of the
+                Board of Elections. The deadline for requesting a ballot is 5
+                p.m. on Thursday, Feb. 21. You can find more information at the
+                <a href="https://chicagoelections.com/en/vote-by-mail.html"
+                  >Chicago elections website</a
+                >.
+              </p>
+              <h3><strong>Can I vote online or via social media?</strong></h3>
+              <p>No. Sorry.</p>
+              <h3><strong>What's a runoff election?</strong></h3>
+              <p>
+                In order to win an elected position in the 2019 Municipal
+                Elections, a candidate must receive a majority, or more than 50
+                percent of the votes. If no candidate wins on February 26th in a
+                race, the top two candidates in the race will compete in a
+                runoff election on April 2, 2019.
+              </p>
+              <h3><strong>Who should I vote for?</strong></h3>
+              <p>
+                That is, of course, entirely up to you. While the Chi.vote
+                Collective does not endorse candidates for public office, we can
+                recommend tools to help you decide:
+              </p>
+              <ul>
+                <li>
+                  Got questions? You can
+                  <a href="https://chi.vote/ask/">ask us anything</a>.
+                </li>
+                <li>
+                  Want to test your readiness? You can
+                  <a href="https://chi.vote/quiz/">take our quiz</a>.
+                </li>
+                <li>
+                  Coming soon: A comprehensive voter guide to research
+                  candidates, races and issues.
+                </li>
+              </ul>
+              <h3>
+                <strong
+                  >What is the schedule for candidate debates and
+                  forums?</strong
+                >
+              </h3>
+              <p>
+                There are a variety of mayoral forums and debates planned. Many
+                require advanced registration or membership in a hosting club.
+                However, several live mayoral candidate forums are available on
+                television or online.
+              </p>
+              <p>
+                You can find a full list at
+                <a href="https://www.documenters.org/meetings/?tags=6"
+                  >Documenters.org</a
+                >, which is produced by Chi.vote Collective partner City Bureau.
+              </p>
+              <h3>
+                <strong
+                  >How do I get in touch with an election official with the
+                  city?
+                </strong>
+              </h3>
+              <p>
+                You can call the Board of Election Commissioners for the City of
+                Chicago: 312.269.7900
+              </p>
+              <p>
+                Text telephone (TTY): 312.269.0027<br />Voter help-line
+                (Espa&ntilde;ol): 312.223.0820<br />Voter help-line (Polski):
+                312.223.0823
+              </p>
+              <h3><strong>What&rsquo;s the Chi.vote Collective? </strong></h3>
+              <p>
+                The Chi.vote Collective is a new group of nonpartisan media and
+                civic organizations that believe in fostering a safer, more
+                prosperous and more equitable and connected Chicago by creating
+                content and tools of the highest quality and accessibility
+                around city elections. The founding partners of the Collective
+                are the
+                <a href="https://www.bettergov.org/"
+                  >Better Government Association</a
+                >,
+                <a href="https://blockclubchicago.org/">Block Club Chicago</a>,
+                <a href="https://www.chicagoreporter.com/"
+                  >The Chicago Reporter</a
+                >, <a href="http://thedailyline.net/">The Daily Line</a> and
+                <a href="https://thetriibe.com/">The Triibe</a>.
+              </p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="text-center my-3"><a href="../">Back home →</a></section>
+
+    <section class="bg-light text-center py-5">
+        <div class="container">
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <!-- <form> -->
+            <div class="form-row">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form
+                  action="https://bettergov.us7.list-manage.com/subscribe/post?u=41b3f3673000e91eee2aa89e7&amp;id=c88b648bc5"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  class="validate"
+                  target="_blank"
+                  novalidate
+                >
+                  <!-- <label for="mce-EMAIL">Get Updates</label> -->
+                  <p>
+                    Sign up to be notified when we publish new content and
+                    features to Chi.vote.
+                  </p>
+                  <div id="mc_embed_signup_scroll" class="form-row">
+                    <div class="col-12 col-md-9 mb-2 mb-md-0">
+                      <input
+                        class="form-control form-control-lg"
+                        placeholder="Enter your email..."
+                        type="email"
+                        value=""
+                        name="EMAIL"
+                        id="mce-EMAIL"
+                        required
+                      />
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <input
+                        class="btn btn-block btn-lg btn-primary"
+                        type="submit"
+                        value="Sign up!"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                      />
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div
+                      style="position: absolute; left: -5000px;"
+                      aria-hidden="true"
+                    >
+                      <input
+                        type="text"
+                        name="b_41b3f3673000e91eee2aa89e7_c88b648bc5"
+                        tabindex="-1"
+                        value=""
+                      />
+                    </div>
+  
+                    <!-- <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> -->
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- </form> -->
+          </div>
+        </div>
+      </section>
 
     <!-- Icons Grid -->
     <section class="chivote-coll text-center">
@@ -440,5 +604,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
   </body>
 </html>

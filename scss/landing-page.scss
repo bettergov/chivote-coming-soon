@@ -74,6 +74,19 @@
   text-decoration: none;
 }
 
+@keyframes highlight {
+  from {
+    background: yellow;
+  }
+  to {
+    background: transparent;
+  }
+}
+
+#toc {
+  display: none;
+}
+
 .page-faq {
   @media screen and (max-width: 768px) {
     h1 {
@@ -81,6 +94,21 @@
     }
   }
   h3 {
-    margin-top: 3rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    color: #555;
+  }
+  h3:target {
+    animation: highlight 1s ease;
+  }
+
+  @media screen and (min-width: 768px) {
+    #toc {
+      display: block;
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 2rem);
+      overflow-y: scroll;
+    }
   }
 }

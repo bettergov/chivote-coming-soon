@@ -248,6 +248,28 @@ footer.footer {
   text-decoration: none;
 }
 
+@-webkit-keyframes highlight {
+  from {
+    background: yellow;
+  }
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes highlight {
+  from {
+    background: yellow;
+  }
+  to {
+    background: transparent;
+  }
+}
+
+#toc {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .page-faq h1 {
     font-size: 2rem;
@@ -255,5 +277,23 @@ footer.footer {
 }
 
 .page-faq h3 {
-  margin-top: 3rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.page-faq h3:target {
+  -webkit-animation: highlight 1s ease;
+  animation: highlight 1s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .page-faq #toc {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: scroll;
+  }
 }
