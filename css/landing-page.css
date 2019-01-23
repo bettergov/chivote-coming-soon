@@ -230,7 +230,7 @@ footer.footer {
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
-  color: #CE112D !important;
+  color: #db3a32 !important;
   font-size: 4.5rem;
 }
 
@@ -239,7 +239,7 @@ footer.footer {
 }
 
 .features-icons {
-  padding: 4rem;
+  margin-top: 2rem;
 }
 
 .feature-link,
