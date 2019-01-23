@@ -271,8 +271,15 @@ footer.footer {
 }
 
 @media screen and (max-width: 768px) {
+  .page-faq p,
+  .page-faq li {
+    font-size: 0.9rem;
+  }
   .page-faq h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+  .page-faq h3 {
+    font-size: 1.2rem;
   }
 }
 
