@@ -300,3 +300,7 @@ footer.footer {
     overflow-y: scroll;
   }
 }
+
+#mc_embed_signup {
+  width: 100%;
+}
